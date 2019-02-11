@@ -11,8 +11,6 @@ LABEL "com.github.actions.description"="Wraps the s3cmd CLI to enable common Sca
 LABEL "com.github.actions.icon"="upload-cloud"
 LABEL "com.github.actions.color"="purple"
 
-# TODO: Add license
-
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
     apk update                                                                        && \
     apk add --no-cache s3cmd                                                          && \
