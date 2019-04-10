@@ -8,7 +8,7 @@ die()
     exit 1
 }
 
-REGION=${REGION:-nl-ams}
+REGION=${REGION:-fr-par}
 HOST="https://s3.$REGION.scw.cloud"
 HOST_BUCKET="$HOST"
 BUCKET_LOCATION=$REGION

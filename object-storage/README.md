@@ -29,9 +29,9 @@ This action just wraps the `s3cmd` CLI to interact with your buckets. Please ref
 
 ### Secrets
 
-* `SCW_ACCESS_KEY` - **Required**. Your Scaleway access key ([more info](https://www.scaleway.com/docs/generate-an-api-token))
-* `SCW_SECRET_KEY` - **Required**. Your Scaleway secret key ([more info](https://www.scaleway.com/docs/generate-an-api-token))
+- `SCW_ACCESS_KEY` - **Required**. Your Scaleway access key ([more info](https://www.scaleway.com/docs/generate-an-api-token))
+- `SCW_SECRET_KEY` - **Required**. Your Scaleway secret key ([more info](https://www.scaleway.com/docs/generate-an-api-token))
 
 ### Environment Variables
 
-* `REGION` - `nl-ams` by default. The targeted Object Storage region ([more info](https://www.scaleway.com/faq/object-storage/#-Is-Object-Storage-available-in-all-Availability-Zones))
+- `REGION` - `fr-par` or `nl-ams` (`fr-par` is the default value)
